@@ -1,0 +1,14 @@
+{
+  "private": true,
+	"scripts": {
+		"build": "parcel build index.html --no-cache --experimental-scope-hoisting"
+	},
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "parcel-bundler": "^1.10.3"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-react-jsx": "^7.1.6",
+    "hyperapp": "^1.2.9"
+  }
+}
